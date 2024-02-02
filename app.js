@@ -39,11 +39,11 @@ app.post("/",function(req,res){
 
     const jsonData= JSON.stringify(data);
 
-    const url="https://us11.api.mailchimp.com/3.0/lists/0e73b443c7";
+    const url="https://";
     const options={
 
     method : "post",
-    auth:"Karan1:dffbde772eb8d885ac8ac4c05358b4a8-us11"
+    auth:"Karan1:"
 
     }
     const req1 =https.request(url,options,function(response){
@@ -77,5 +77,3 @@ app.listen(4000,function(){
 });
 
 
-// api key dffbde772eb8d885ac8ac4c05358b4a8-us11
-// list id 0e73b443c7
